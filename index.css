@@ -7,9 +7,15 @@ body{
 
  .hero-image{
      background-image: url('code.jpg');
-     background-repeat: repeat; /*this selector avoid repetition */
+     
+     min-height: 500px;
+     
+     
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat; /*this selector avoid repetition */
      background-size: cover;  /* this function cover */
-     height: 50vh;
+   
      
  }
 .hero-text {
