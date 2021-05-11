@@ -17,7 +17,7 @@ body{
     text-align: center;
     position: absolute;
     top: 30%;
-    left: 50%;;
+    left: 45%;
     
  }
 h1, h2 {
@@ -108,6 +108,10 @@ input[type="submit"]{
     }
     input[type="submit"]{
         width:  70%;
+    }
+    .hero-text{
+        text-align: center;
+        left: 35%;
     }
     
 }
