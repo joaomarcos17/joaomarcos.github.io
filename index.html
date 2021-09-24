@@ -1,173 +1,307 @@
+
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joao Marcos</title>
+    <title>John Tech</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma-rtl.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
-              
-                    <!---navbar color is dark = black !!-->
+    <!-- navbar -->
 
-        <nav class="navbar is-dark" style="padding: 1rem;">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+              <strong>
+            John Tech
+        </strong>
             
-            <!--my name is the brand -->
-
-            <div class="navbar-brand" style="font-weight: bold; padding-left: 2rem;">
-
-                <a href="#" class="navbar-item">Joao Marcos</a>
-                  
-                <a href="" class="navbar-burger" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+             Blog
+            </a>
+      
+            <a class="navbar-item">
+             About Me
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  About
                 </a>
-
+                <a class="navbar-item">
+                  Jobs
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
             </div>
-           
-                         <!--javascrip goes here for mobile navbar -->
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <button class="button is-medium">
+                  <a class="has-text-dark"href="https://github.com/joaomarcos17"target="_blank">
+                  <span class="icon is-small">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>GitHub</span>
+                </a>
+                </button>
+                <button class="button is-medium is-info">
+                     <a class="has-text-white"href="https://www.linkedin.com/in/joao-marcos-52b47520b/"target="_blank">
+                  <span class="icon is-small">
+                    <i class="fab fa-linkedin"></i>
+                  </span>
+                  <span>Linkedin</span>
+                </a>
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-            <div class="navbar-menu" id="navlinks">
+      <main>
+          <!-- hero -->
 
-                <div class="navbar-start" style="padding-right: 1rem;">
+          <section class="hero is-medium is-dark is-bold" id="top"
+          style="background-image: url('code.jpg');background-size: cover;background-blend-mode: soft-light;">
+            <div class="hero-body">
+              <p class="title">
+               John Tech
+              </p>
+              <p class="subtitle">
+                Network Engineer
+              </p>
+            </div>
+          </section>
+            <br>
+          <!-- section -->
+          <div class="columns
+          is-vcentered
+          is-justify-content-space-evenly p5">
+          <div class="column is-one-third">
 
-                    <a href="#contact" class="navbar-item">Contact</a>
-                    <a href="#about" class="navbar-item">About</a>
+            <img src="https://i.postimg.cc/NFvHdLVp/IMG-0038.jpg
+            " alt="profile_picture">
 
+          </div>
+
+          <div class="column is-half" id="intro">
+
+            <p class="title">
+                John Tech
+            </p>
+
+            <p> 
+                He is very proficient in HTML, CSS, CSS Bulma framework, currently learning Javascript, Git
+
+                I am also studying IT and Network by Open University
+
+                 He is Fluent in Portuguese, English and Mandarin.
+            </p>
+
+          </div>
+
+          </div>
+          <!-- another section  -->
+          <section class="section">
+
+            <div class="section-heading" id="heading">
+            <h3 class="title is-2">Services
+
+            </h3>
+            <h4 class="subtitle is-5">
+              John is specialised at these areas
+
+            </h4>
+           <br>
+          </div>
+          <div class="container">
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <div class="content">
+                    <h4 class="title is-5">
+
+                      Network Engineering
+
+                    </h4>
+                    " Traditional Network environment with physical servers and so on He is currently working torwards  his CCNA. "
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <div class="content">
+                    <h4 class="title is-5">
+                     Cloud Computing
+                    </h4>
+                    " John is also studying cloud technologies such as Amazon AWS and Microsoft Azure. "
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <div class="content">
+                    <h4 class="title is-5">
+                       Front End Development
+                    </h4>
+                    " With proficiency is HTML, CSS and Bulma He is now learning Javascript and Node.js.  "
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <div class="content">
+                    <h4 class="title is-5">
+
+                      Basic Knowledge of Cybersecurity
+
+                    </h4>
+                    " He Completed The OpenLearn course for Introduction to Cybersecurity by Open University he passed with Destinction. "
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </section>
+
+            <!-- portfolio  -->
+            <section class="section">
+              <div class="container">
+                <div class="section-heading">
+                  <h3 class="title is-2 has-text-centered">
+                    Portfolio
+
+                  </h3>
+                 <h4 class="subtitle is-5 has-text-centered">
+                     My latest work
+                 </h4>
 
                 </div>
-            </div>
-       </nav>
-
-       <!---header section -->
-
-       <header class="hero-image">
-
-                 <div class="hero-text">
-
-                    <h1 class="title has-text-white">Joao Marcos</h1>
-                    <h2 class="subtitle has-text-white">Software Enginner</h2>
-                     
-                     <button class="button is-success is-outlined"><a class="has-text-white" href="#about">About Me</a></button>
-        
-                 </div>
-
-
-
-       </header>
-             
-                               <!-- main section -->
-  <main>
-
-           <section id="about" class="section"  style="text-align: center;">
-             <div class="has-text-black-bis">
-                         
-                  <p class="title">About Me</p>
-          
-              <img class="my_image" src="https://i.postimg.cc/m2DgqsN8/me.jpg" alt="me">
-
-              <p class="has-text-black-bis"> My name is Joao Marcos <br>
-                  I am very proficient in HTML, CSS, CSS Bulma framework,
-                  currently learning Javascript, Git 
-              </p>
-              <p class="has-text-black-bis">I am also studying IT and Network by Open University </p>
-               <p class="has-text-black-bis">I am Fluent in Portuguese, English and Mandarin. </p>
-              
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-js"></i>
-              <i class="fab fa-git-alt"></i>
-
-           <article class="container">
-     
-               <p class="title has-text-black-bis">Sites I have Created </p>
-
-                <div class="div-one">
-
-                       <!-- <p class="title">Tribute Page</p> -->
-                      <!-- <img src="https://i.postimg.cc/FFWBGByQ/code.jpg" alt=""> -->
-
-                <!-- <a href="#"><img src="tribute.png" alt="tribute page"></a> -->
-                 
-              </div>
-                     
-                     <p class="title has-text-black-bis" >Mrs Brilliant Cleaning Company</p>
-                        <p class="has-text-black-bis">Our Company Static Site .</p>
-
-                <div class="div-two">
-
-                <a href="#"><img src="https://i.postimg.cc/CxXJ3wy0/Mrs-Brilliant-Company.png" alt="mrs brilliant"></a>
-
-               </div>
-
-                 <div class="div-three">
-
-                       <!-- <p class="title">Google Homepage</p> -->
-
-                      <!-- <a href="#"><img src="homepage.png" alt="google homepage"></a>  -->
-                            
-                      <p id="contact" class="title has-text-black-bis">Drop me a line</p>
-
-                 </div>
-
-                 <div class="form">
-                     <form action="" method="post">
-                  
-                      <div>
-                          <!-- <label for="name"> -->
-                              <!-- Name -->
-                            <!-- </label> -->
-                          
-                            <input type="text" placeholder="name" required>
-                            
+                <br>
+                <div class="container portfolio-container">
+                  <div class="columns">
+                    <div class="column is-7">
+                      <div class="card">
+                        <header class="card-header">
+                          <p class="card-header-title has-text-centered">
+                            <span>
+                              "Mrs Brilliant Cleaning Service"
+                            </span>
+                          </p>
+                        </header>
+                        <div class="card-content">
+                          <figure class="image">
+                            <img src="https://i.postimg.cc/CxXJ3wy0/Mrs-Brilliant-Company.png" alt="Cleaning_company_website">
+                          </figure>
+                        </div>
+                        <footer class="card-footer">
+                          <a href="https://joaomarcos17.github.io/my-web-app/assets/" target="_blank"class="card-footer-item">Preview</a>
+                          <a href="https://github.com/joaomarcos17/my-web-app/tree/main/assets"target="_blank" class="card-footer-item">Source Code</a>
+                        </footer>
                       </div>
-                        <div>
-                            <!-- <label for="email" >
-                                Email
-                            </label> -->
-                             
-                            <input type="text" placeholder="email" required>
-                           
-                        </div>
-                        <div>
-                           
-                            
-                            <textarea name="message" placeholder="message" id="message" cols="20" rows="10" required>
-                              
-                            </textarea>
-                             <br>
-                            <input type="submit">
-                        </div>
 
+                    </div>
+                  </div>
 
+                </div>
+              </div>
 
+            </section>
 
-                     </form>
-                 </div>
-
-            </article>
-
-
-      
-  </main>
-  <footer class="footer has-background-dark">
-    <div class="content has-text-centered">
-      <p>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="https://github.com/settings/profile" target="_blank"><i class="fab fa-github-square"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </p>
-    </div>
-  </footer>
-          
+          <!-- contact -->
+          <section class="hero">
+            <div class="hero-body">
+              <p class="title has-text-centered">
+               Contact
+              </p>
+              <p class="subtitle has-text-centered">Get in touch with me</p>
               
+            </div>
+          </section>
+          <!-- form -->
+  <div class="card">
+          <form action="">
+          
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Full Name">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="field">
+              <label class="label">
+                  Message
+              </label>
+              <div class="control">
+                  <textarea class="textarea" placeholder="message"></textarea>
+              </div>
+          </div>
 
-        <script src="index.js"></script>    
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Submit</button>
+            </div>
+            </div>
+        </form>
+
+      </div>
+          
+      </main>
+                                  <!-- footer -->
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <script>
+              document.write("@John Tech &copy; " + new Date().getFullYear());
+            </script>
+          </p>
+          <p>
+            <a class="has-text-dark is-underlined"href="#top">Back to Top </a>
+          </p>
+        </div>
+      </footer>
+    <script src="index.js"></script>
 
 </body>
 </html>
