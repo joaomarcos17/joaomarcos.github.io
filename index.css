@@ -1,123 +1,34 @@
-body{
-    background-color: background-color: #2f4353;
-    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
-    color: white;
-}
- /* hero image goes here! */
 
- .hero-image{
-     background-image: url('code.jpg');
-     
-     min-height: 500px;
-     
-     
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat; /*this selector avoid repetition */
-     background-size: cover;  /* this function cover */
-   
-     
- }
-.hero-text {
-        
+  .navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#heading{
     text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 45%;
-    
- }
-h1, h2 {
-    $size-1: 3rem;
 }
- 
-.fab {
-
-    font-size: 60px;
-    margin-top: 2rem;
+#intro{
+    margin: 2rem;
+}
+form{
+    margin: 1rem;
+}
+.card{
     padding: 1rem;
+    margin: 2rem;
 }
 
-.fa-css3-alt {
 
-    color: blue;
-}
-.fa-html5 {
-    color: tomato;
-}
-.fa-js {
-    color: yellow;
-   
-}
-.fa-git-alt {
-    color: red;
-}
-.fa-github-square {
-    color:#ffff;
-}
-.fa-facebook {
-    color: blue;
-}
-.fa-linkedin {
-    color: skyblue
-}
-.container > div {
- 
-    margin-top: 3rem;
-
-}
-.container > p {
-
-    margin-top: 2rem;
-}
-p{
-    font-family: monospace;
-    font-weight: bold;
-}
-.social {
-    margin-top: 2rem;
-}
-input[type="text"]{
-    width: 40%;
-    padding: 10px;
-    margin-bottom: 1rem;
-    background-color: #555;
-    color:#ffff;
-    border-radius: 5px;
-    border: none;
-}
-textarea {
-    width: 40%;
-    background-color: #555;
-    color: #ffff;
-    border-radius: 5px;
-    border: none;
+@media screen and (min-width:40em){
     
-}
-input[type="submit"]{
-   
-    border: none;
-    background-color: #000;
-    color: #ffff;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 1rem;
-    width: 40%;
-}
-@media screen and (max-width: 600px){
 
-    input[type="text"]{
-        width: 90%;
-    }
-    textarea{
-        width:90%;
-    }
-    input[type="submit"]{
-        width:  70%;
-    }
-    .hero-text{
-        text-align: center;
-        left: 30%;
-    }
-    
+form{
+    margin: 5rem;
 }
+.card{
+    padding: 1rem;
+    margin: 7rem;
+}
+
+}
+
